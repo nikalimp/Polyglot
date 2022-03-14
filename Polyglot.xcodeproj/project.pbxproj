@@ -13,6 +13,23 @@
 		92D96F2627D38F880070FB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D96F2427D38F880070FB17 /* Main.storyboard */; };
 		92D96F2827D38F8A0070FB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D96F2727D38F8A0070FB17 /* Assets.xcassets */; };
 		92D96F2B27D38F8A0070FB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D96F2927D38F8A0070FB17 /* LaunchScreen.storyboard */; };
+		92D96F3327D391B80070FB17 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F3227D391B80070FB17 /* HomeViewController.swift */; };
+		92D96F3527D3941D0070FB17 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F3427D3941D0070FB17 /* GameViewController.swift */; };
+		92D96F3927D39B340070FB17 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F3827D39B340070FB17 /* GameSession.swift */; };
+		92D96F3C27D39BE80070FB17 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 92D96F3B27D39BE80070FB17 /* Realm */; };
+		92D96F3E27D39BE80070FB17 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 92D96F3D27D39BE80070FB17 /* RealmSwift */; };
+		92D96F4027D39C150070FB17 /* GamePersisted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F3F27D39C150070FB17 /* GamePersisted.swift */; };
+		92D96F4227D39C250070FB17 /* GameStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F4127D39C250070FB17 /* GameStats.swift */; };
+		92D96F4427D39C3A0070FB17 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F4327D39C3A0070FB17 /* Question.swift */; };
+		92D96F4727D39C6D0070FB17 /* QuestionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F4627D39C6D0070FB17 /* QuestionProvider.swift */; };
+		92D96F4927D39C820070FB17 /* GameSessionCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F4827D39C820070FB17 /* GameSessionCaretaker.swift */; };
+		92D96F4B27D39C940070FB17 /* StatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F4A27D39C940070FB17 /* StatsService.swift */; };
+		92D96F4D27D39CC30070FB17 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F4C27D39CC30070FB17 /* Game.swift */; };
+		92D96F4F27D39CE90070FB17 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96F4E27D39CE90070FB17 /* Extensions.swift */; };
+		92D96F5C27D3A39E0070FB17 /* triviaDB.realm.lock in Resources */ = {isa = PBXBuildFile; fileRef = 92D96F5727D3A39E0070FB17 /* triviaDB.realm.lock */; };
+		92D96F5D27D3A39E0070FB17 /* access_control.write.mx in Resources */ = {isa = PBXBuildFile; fileRef = 92D96F5927D3A39E0070FB17 /* access_control.write.mx */; };
+		92D96F5E27D3A39E0070FB17 /* access_control.control.mx in Resources */ = {isa = PBXBuildFile; fileRef = 92D96F5A27D3A39E0070FB17 /* access_control.control.mx */; };
+		92D96F5F27D3A39E0070FB17 /* triviaDB.realm in Resources */ = {isa = PBXBuildFile; fileRef = 92D96F5B27D3A39E0070FB17 /* triviaDB.realm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,21 @@
 		92D96F2727D38F8A0070FB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92D96F2A27D38F8A0070FB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92D96F2C27D38F8A0070FB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D96F3227D391B80070FB17 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		92D96F3427D3941D0070FB17 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		92D96F3827D39B340070FB17 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		92D96F3F27D39C150070FB17 /* GamePersisted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePersisted.swift; sourceTree = "<group>"; };
+		92D96F4127D39C250070FB17 /* GameStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStats.swift; sourceTree = "<group>"; };
+		92D96F4327D39C3A0070FB17 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		92D96F4627D39C6D0070FB17 /* QuestionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionProvider.swift; sourceTree = "<group>"; };
+		92D96F4827D39C820070FB17 /* GameSessionCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameSessionCaretaker.swift; path = ../../../../GameSessionCaretaker.swift; sourceTree = "<group>"; };
+		92D96F4A27D39C940070FB17 /* StatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsService.swift; sourceTree = "<group>"; };
+		92D96F4C27D39CC30070FB17 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		92D96F4E27D39CE90070FB17 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		92D96F5727D3A39E0070FB17 /* triviaDB.realm.lock */ = {isa = PBXFileReference; lastKnownFileType = file; path = triviaDB.realm.lock; sourceTree = "<group>"; };
+		92D96F5927D3A39E0070FB17 /* access_control.write.mx */ = {isa = PBXFileReference; lastKnownFileType = file; path = access_control.write.mx; sourceTree = "<group>"; };
+		92D96F5A27D3A39E0070FB17 /* access_control.control.mx */ = {isa = PBXFileReference; lastKnownFileType = file; path = access_control.control.mx; sourceTree = "<group>"; };
+		92D96F5B27D3A39E0070FB17 /* triviaDB.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = triviaDB.realm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D96F3E27D39BE80070FB17 /* RealmSwift in Frameworks */,
+				92D96F3C27D39BE80070FB17 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +74,12 @@
 		92D96F1227D38F880070FB17 = {
 			isa = PBXGroup;
 			children = (
+				92D96F5627D3A39E0070FB17 /* Data */,
+				92D96F4E27D39CE90070FB17 /* Extensions.swift */,
+				92D96F4C27D39CC30070FB17 /* Game.swift */,
+				92D96F4527D39C590070FB17 /* Services */,
+				92D96F3727D39B1B0070FB17 /* Models */,
+				92D96F3627D39AEF0070FB17 /* Controllers */,
 				92D96F1D27D38F880070FB17 /* Polyglot */,
 				92D96F1C27D38F880070FB17 /* Products */,
 			);
@@ -67,6 +107,55 @@
 			path = Polyglot;
 			sourceTree = "<group>";
 		};
+		92D96F3627D39AEF0070FB17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				92D96F3427D3941D0070FB17 /* GameViewController.swift */,
+				92D96F3227D391B80070FB17 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		92D96F3727D39B1B0070FB17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92D96F3827D39B340070FB17 /* GameSession.swift */,
+				92D96F3F27D39C150070FB17 /* GamePersisted.swift */,
+				92D96F4127D39C250070FB17 /* GameStats.swift */,
+				92D96F4327D39C3A0070FB17 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92D96F4527D39C590070FB17 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92D96F4627D39C6D0070FB17 /* QuestionProvider.swift */,
+				92D96F4827D39C820070FB17 /* GameSessionCaretaker.swift */,
+				92D96F4A27D39C940070FB17 /* StatsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		92D96F5627D3A39E0070FB17 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				92D96F5727D3A39E0070FB17 /* triviaDB.realm.lock */,
+				92D96F5827D3A39E0070FB17 /* triviaDB.realm.management */,
+				92D96F5B27D3A39E0070FB17 /* triviaDB.realm */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		92D96F5827D3A39E0070FB17 /* triviaDB.realm.management */ = {
+			isa = PBXGroup;
+			children = (
+				92D96F5927D3A39E0070FB17 /* access_control.write.mx */,
+				92D96F5A27D3A39E0070FB17 /* access_control.control.mx */,
+			);
+			path = triviaDB.realm.management;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +172,10 @@
 			dependencies = (
 			);
 			name = Polyglot;
+			packageProductDependencies = (
+				92D96F3B27D39BE80070FB17 /* Realm */,
+				92D96F3D27D39BE80070FB17 /* RealmSwift */,
+			);
 			productName = Polyglot;
 			productReference = 92D96F1B27D38F880070FB17 /* Polyglot.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,9 @@
 				Base,
 			);
 			mainGroup = 92D96F1227D38F880070FB17;
+			packageReferences = (
+				92D96F3A27D39BE80070FB17 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 92D96F1C27D38F880070FB17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +223,10 @@
 			files = (
 				92D96F2B27D38F8A0070FB17 /* LaunchScreen.storyboard in Resources */,
 				92D96F2827D38F8A0070FB17 /* Assets.xcassets in Resources */,
+				92D96F5C27D3A39E0070FB17 /* triviaDB.realm.lock in Resources */,
+				92D96F5F27D3A39E0070FB17 /* triviaDB.realm in Resources */,
+				92D96F5E27D3A39E0070FB17 /* access_control.control.mx in Resources */,
+				92D96F5D27D3A39E0070FB17 /* access_control.write.mx in Resources */,
 				92D96F2627D38F880070FB17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +238,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D96F4027D39C150070FB17 /* GamePersisted.swift in Sources */,
+				92D96F4B27D39C940070FB17 /* StatsService.swift in Sources */,
+				92D96F3527D3941D0070FB17 /* GameViewController.swift in Sources */,
+				92D96F4D27D39CC30070FB17 /* Game.swift in Sources */,
 				92D96F2327D38F880070FB17 /* ViewController.swift in Sources */,
+				92D96F4427D39C3A0070FB17 /* Question.swift in Sources */,
+				92D96F4727D39C6D0070FB17 /* QuestionProvider.swift in Sources */,
+				92D96F4927D39C820070FB17 /* GameSessionCaretaker.swift in Sources */,
+				92D96F4227D39C250070FB17 /* GameStats.swift in Sources */,
 				92D96F1F27D38F880070FB17 /* AppDelegate.swift in Sources */,
 				92D96F2127D38F880070FB17 /* SceneDelegate.swift in Sources */,
+				92D96F3927D39B340070FB17 /* GameSession.swift in Sources */,
+				92D96F3327D391B80070FB17 /* HomeViewController.swift in Sources */,
+				92D96F4F27D39CE90070FB17 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +471,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92D96F3A27D39BE80070FB17 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92D96F3B27D39BE80070FB17 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92D96F3A27D39BE80070FB17 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		92D96F3D27D39BE80070FB17 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92D96F3A27D39BE80070FB17 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92D96F1327D38F880070FB17 /* Project object */;
 }
